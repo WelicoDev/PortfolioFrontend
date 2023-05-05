@@ -1,0 +1,57 @@
+.contact{
+	padding: 100px 30px;
+}
+textarea,input{
+	width: 100%;
+	padding: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #f0e9ff;
+	border-radius: 5px;
+	padding-left: 18px;
+	font-size: 13px;
+	background: transparent;
+	color: #495057;
+}
+textarea:focus,
+input:focus{
+	outline: 0;
+	box-shadow: none;
+}
+.button {
+    border: none;
+    background: linear-gradient(
+        to right,
+        #1345e6 0%,
+        #ed239f 51%,
+        #1345e6 100%
+    );
+    background-size: 200% auto;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background-position: right center;
+}
+
+.half-row{
+	width: 50%;
+	float: left;
+}
+
+.contact__firstname{
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+.contact__email{
+    padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.contact__send{
+	margin-top: 30px;
+}

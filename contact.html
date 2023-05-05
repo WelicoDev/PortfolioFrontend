@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="photo.png" />
+        <title>Contact Us</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+		<link rel="stylesheet" href="./styles/css/shared.css">
+		<link rel="stylesheet" href="./styles/css/contact.css">
+    </head>
+    <body>
+        <!-- Header section -->
+        <header class="main-header">
+            <div class="container">
+                <div class="main-header__brand">
+                    <a href="index.html">
+                        <img src="./styles/images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation__items">
+                        <li class="main-navigation__item active">
+                            <a href="index.html">Asosiy</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Men haqimda </a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Xizmatlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Mijozlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Sheriklar</a>
+                        </li>
+						<li class="main-navigation__item">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /Header section -->
+        <div class="container">
+			<section class="contact">
+				<div class="section-title">
+					<h2>Contact Us</h2>
+				</div>
+				<form action="/server.py" method="post">
+					<textarea rows="10" placeholder="Message"></textarea>
+					<div class="half-row contact__firstname">
+						<input type="text" placeholder="Firstname" name="firstname">
+					</div>
+					<div class="half-row contact__email">
+						<input type="email" placeholder="Email" name="email">
+					</div>
+					<input type="text" placeholder="Content" name="subject">
+					<button type="submit" class="button contact__send">Send Message</button>
+				</form>
+			</section>
+		</div>
+        <!-- Footer sections -->
+        <!-- <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li>
+                        <a href="#">Men haqimda </a>
+                    </li>
+                    <li>
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Sheriklar</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer> -->
+        <!-- /Footer sections -->
+    </body>
+</html>
